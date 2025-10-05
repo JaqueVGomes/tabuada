@@ -1,6 +1,7 @@
 <?php 
 // Aqui iria o código PHP 
 // Mas não usei, pois o formulário envia para resultado-tabuada.php 
+// igual da aula passada mesma base 
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">

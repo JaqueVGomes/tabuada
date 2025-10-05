@@ -1,8 +1,9 @@
 <?php 
-// Aqui vai código PHP (se precisar). 
-// Nesse caso não precisamos declarar variáveis antes, o PHP vai receber via POST no resultado.
+// Aqui iria o código PHP se precisasse. 
+// Nesse caso não precisamos declarar variáveis antes, o PHP vai receber via POST no resultado. 
+// Como nas aulas anteriores - base do projeto aulas passadas 
 ?>
-<!-- JAMAIS REALIZE ECHO ANTES DO <!DOCTYPE html> !-->
+<!-- JAMAIS REALIZE ECHO ANTES DO <!DOCTYPE html>  isso é da aula de setembro mas não posso esquecer!-->  
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -34,11 +35,11 @@
         <div class="card-header bg-white"><strong>Formulário</strong></div>
         <div class="card-body">
           <!-- method="POST" -> envia dados de forma segura
-               action="resultado-tabuada.php" -> para onde vai enviar os dados -->
+               action="resultado-tabuada.php" -> para onde vai os dados -->
           <form method="POST" action="resultado-tabuada.php">
             <div class="mb-3">
               <label class="form-label">Nome</label>
-              <!-- input type texto, recebe nome digitado -->
+              <!-- input type text, recebe nome digitado -->
               <input type="text" class="form-control" id="nome" name="nome">
             </div>
 
@@ -68,7 +69,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> 
 </main>
 </body>
 </html>
